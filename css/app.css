@@ -1,0 +1,44 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Redressed', cursive;
+}
+
+body {
+  background-color: #E0E0E0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #4C5A69;
+  text-shadow: 0 0 10px #6C7A89;
+  letter-spacing: 0.5rem;
+}
+
+.clock {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3),
+              inset 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #4C5A69;
+  font-size: 4rem;
+  padding: 1.5rem;
+  text-shadow: 0 0 10px #6C7A89;
+}
+
+.hour {
+  color: #102770;
+}
+
+.minute {
+  color: #0057A0;
+}
+
+.second {
+  color: #0077C0;
+}
